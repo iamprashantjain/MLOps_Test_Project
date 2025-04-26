@@ -1,0 +1,10 @@
+2025-04-26 20:27:54,659 [INFO] Data transformation pipeline started.
+2025-04-26 20:27:54,675 [INFO] Loading data from data/raw/train.csv and data/raw/test.csv
+2025-04-26 20:27:54,690 [INFO] Train shape: (16, 2), Test shape: (8, 2)
+2025-04-26 20:27:54,690 [INFO] Starting preprocessing of train and test data...
+2025-04-26 20:28:22,822 [INFO] Removed 0 short sentences (less than 3 words)
+2025-04-26 20:28:22,906 [INFO] Removed 0 short sentences (less than 3 words)
+2025-04-26 20:28:22,982 [INFO] Preprocessing complete.
+2025-04-26 20:28:23,123 [INFO] Saving processed data to data/processed
+2025-04-26 20:28:23,854 [INFO] Processed data saved successfully.
+2025-04-26 20:28:23,906 [INFO] Data transformation pipeline completed successfully.

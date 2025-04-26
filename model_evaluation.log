@@ -1,0 +1,10 @@
+2025-04-26 20:30:42,990 [INFO] Model evaluation started.
+2025-04-26 20:30:42,991 [INFO] Loading test data from data/features/test.csv
+2025-04-26 20:30:43,141 [INFO] Test data shape: (8, 111)
+2025-04-26 20:30:43,180 [INFO] Loading model from data/models/model.pkl
+2025-04-26 20:30:43,806 [INFO] Making predictions on test data
+2025-04-26 20:30:43,975 [INFO] Evaluating model performance
+2025-04-26 20:30:44,141 [INFO] Evaluation metrics: {'accuracy': 0.5, 'precision': 0.0, 'recall': 0.0, 'roc_auc': 0.5}
+2025-04-26 20:30:44,232 [INFO] Saving metrics to data/reports/metrics.json
+2025-04-26 20:30:44,596 [INFO] Metrics saved successfully.
+2025-04-26 20:30:44,759 [INFO] Model evaluation completed successfully.
