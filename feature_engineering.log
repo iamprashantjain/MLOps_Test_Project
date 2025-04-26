@@ -12,3 +12,17 @@
 2025-04-26 20:29:20,633 [INFO] Saved train features to data/features\train.csv
 2025-04-26 20:29:20,707 [INFO] Saved test features to data/features\test.csv
 2025-04-26 20:29:20,734 [INFO] Feature engineering pipeline completed successfully.
+2025-04-26 20:43:37,895 [INFO] Feature engineering pipeline started.
+2025-04-26 20:43:37,899 [INFO] Loading parameters from params.yaml
+2025-04-26 20:43:37,905 [INFO] Loading train data from data/processed/train.csv
+2025-04-26 20:43:38,052 [INFO] Train data shape: (16, 2)
+2025-04-26 20:43:38,052 [INFO] Loading test data from data/processed/test.csv
+2025-04-26 20:43:38,059 [INFO] Test data shape: (8, 2)
+2025-04-26 20:43:38,059 [INFO] Preprocessing: filling missing values and extracting labels.
+2025-04-26 20:43:38,116 [INFO] Vectorizing data using CountVectorizer with max_features=50
+2025-04-26 20:43:38,263 [INFO] Train BOW shape: (16, 50), Test BOW shape: (8, 50)
+2025-04-26 20:43:38,263 [INFO] Creating DataFrames from vectorized data
+2025-04-26 20:43:38,341 [INFO] Saving feature data to data/features
+2025-04-26 20:43:38,862 [INFO] Saved train features to data/features\train.csv
+2025-04-26 20:43:38,902 [INFO] Saved test features to data/features\test.csv
+2025-04-26 20:43:38,927 [INFO] Feature engineering pipeline completed successfully.
